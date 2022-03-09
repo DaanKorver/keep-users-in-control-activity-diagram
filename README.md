@@ -1,16 +1,21 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
-# Titel
+# Activity Diagram
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
+Dit is mijn activity diagram voor het project mijnHVA.
 
 ## User Story
-<!-- Schrijf hier de User Story waar de Activity Diagram over gaat-->
+Als gebruiker, wil ik een aantal fetch states zien (loading state, error state & empty state), zodat ik weet dat de Applicatie werkt.
 
 ## Activity Diagram
-<!-- Toon de activity Diagram -->
+<img src="https://github.com/DaanKorver/keep-users-in-control-activity-diagram/blob/main/assets/Activity%20diagram.png" />
 
 ## Uitleg pseudo-code 
-<!-- Leg de pseudo-code in de control fow uit -->
+
+Zodra de pagina word geladen word er eerst gekeken of de browser javascript heeft aan staan, zo niet dan komt er een empty state te staan.
+
+Als er wel javascript is dan word de state direct op loading gezet.
+Tijdens het laden word de api gefetched doormiddel van getData.
+Als er een fout optreed in de api dan word de state op error gezet en gebeurd er niks meer.
+Als dit niet het geval is word de data van de api gerenderd en word de state op loaded gezet waarna de applicatie te gebruiken is.
 
 
 ## Licentie
