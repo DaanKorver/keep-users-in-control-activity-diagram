@@ -3,7 +3,7 @@
 Dit is mijn activity diagram voor het project mijnHVA.
 
 ## User Story
-Als gebruiker, wil ik een aantal fetch states zien (loading state, error state & empty state), zodat ik weet dat de Applicatie werkt.
+Als gebruiker, wil ik een informatiepagina zien, zodat ik antwoord krijg op mijn vraag.
 
 ## Activity Diagram
 <img src="https://github.com/DaanKorver/keep-users-in-control-activity-diagram/blob/main/assets/Activity%20diagram.png" />
